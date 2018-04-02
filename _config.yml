@@ -37,10 +37,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   HTML5 UP's sleek, responsive site template Prologue.
 author: Nitish Gupta
 email: nitesh4146@gmail.com
-avatar: assets/images/pingu.png
+avatar: assets/images/nitish.jpg
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "guptanitish.com" # the subpath of your site, e.g. /blog
+baseurl: "/jekyll-theme-prologue" # the subpath of your site, e.g. /blog
 url: "guptanitish.com" # the base hostname & protocol for your site
 
 # Social settings
