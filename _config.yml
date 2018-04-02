@@ -1,20 +1,29 @@
-# Site settings
 title: Nitish Gupta
-description: Portfolio
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-
-# User settings
-username: Nitish Gupta
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Autonomous Vehicle Researcher
+subtitle: Autonomous Vehicle Researcher
+description: >- # this means to ignore newlines until "baseurl:"
+  This is the demo site for a Jekyll theme version of
+  HTML5 UP's sleek, responsive site template Prologue.
+author: Nitish Gupta
 email: nitesh4146@gmail.com
-twitter_username: nitesh4146
-github_username:  nitesh4146
-gplus_username:  nitesh4146
+avatar: assets/images/favicon.ico
 
-# Google-analytics
-google-analytics:
-  id: ""
+# You'll want to customize url and baseurl for your own site:
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 
-exclude: ['package.json', 'src' , 'node_modules']
+# Social settings
+facebook_url:
+github_url: www.github.com/nitesh4146
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url:
+
+# Google Analytics Tracking ID goes here:
+google_analytics:
+
+# The following settings are NECESSARY for the Prologue theme to run:
+theme: jekyll-theme-prologue
+collections: [sections]
