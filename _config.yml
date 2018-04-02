@@ -9,7 +9,7 @@ avatar: assets/images/favicon.ico
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "guptanitish.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 # Social settings
 facebook_url:
