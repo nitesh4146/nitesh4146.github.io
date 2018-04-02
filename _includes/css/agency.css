@@ -294,7 +294,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-lead-in1 {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 18px;
+    font-size: 20px;
     line-height: 22px;
 }
 
