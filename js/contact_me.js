@@ -1,7 +1,7 @@
 $(function() {
 
     $("input,textarea").jqBootstrapValidation({
-        preventSubmit: false,
+        preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
         },
@@ -19,7 +19,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "//formspree.io/contact@guptanitish.com",
+                url: "https://formspree.io/contact@guptanitish.com",
                 method: "POST",
                 data: {
                     name: name,
