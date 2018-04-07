@@ -54,6 +54,14 @@
                 <div class="intro-lead-in">Welcome To Nitish's Portfolio!</div>
                 <div class="intro-lead-in">An Autonomous Vehicle Researcher</div>
                 <a href="Nitish_Gupta.pdf" class="btn btn-xl">Download Resume</a>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
                   <!-- <div class="social">
                         <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
           	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
