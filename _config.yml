@@ -44,8 +44,6 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://www.twitter.com/nitesh4146
   # - title: facebook
   #   url:
   # - title: stack-overflow
@@ -56,6 +54,8 @@ social:
     url: http://www.github.com/nitesh4146
   - title: linkedin
     url: http://www.linkedin.com/in/nitish-gupta
+  - title: twitter
+    url: http://www.twitter.com/nitesh4146
 
 # Postal address (add as many lines as necessary)
 address:
