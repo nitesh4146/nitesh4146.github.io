@@ -1,3 +1,3 @@
 ### Website: https://www.guptanitish.com | Blog: http://www.slickmind.in
 
-Inspired by: y7kim/agency-jekyll-theme
+Theme Inspired by: https://github.com/y7kim/agency-jekyll-theme and https://github.com/brianmaierjr/long-haul
