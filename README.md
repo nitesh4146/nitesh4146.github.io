@@ -1,4 +1,3 @@
-### Personal Portfolio: https://www.guptanitish.com
-### My Slick Blog: http://www.slickmind.in
+### Website: https://www.guptanitish.com | Blog: http://www.slickmind.in
 
 Inspired by: y7kim/agency-jekyll-theme
