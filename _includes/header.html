@@ -54,21 +54,18 @@
                 <div class="intro-heading">Nitish Gupta</div>
                 <div class="intro-lead-in">Student | Researcher | Engineer</div>
                 <a href="/docs/Nitish_Gupta.pdf" class="btn btn-xl">Download Resume</a>
-                <p></p>
+                <p> </p>
 
-
+                <div class="row">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
           </div>
-          <!-- <div class="row"> -->
-            <div class="container">
-              <ul class="list-inline social-buttons">
-                  {% for network in site.social %}
-                  <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                  </li>
-                  {% endfor %}
-              </ul>
-          <!-- </div> -->
-        </div>
         </header>
 <!--
         {% for page in site.pages %}
