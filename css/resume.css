@@ -64,6 +64,7 @@ h2 {
   text-transform: uppercase;
 }
 
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -131,8 +132,9 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  /* background-color: #BD5D38 !important; */
-  background-image: url("/img/profile.jpg");
+  background-color: #495057 !important;
+  /* background-image: url("/img/profile.jpg"); */
+
 }
 
 .text-primary {
