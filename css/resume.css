@@ -4,21 +4,6 @@ body {
   color: #868e96;
 }
 
-#header {
-  position: relative;
-  min-height: 150px;
-}
-
-#header-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-#header, #header * {
-}
-
-
 @media (min-width: 992px) {
   body {
     padding-top: 0;
