@@ -58,7 +58,7 @@ hr {
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #408ec9;
 }
 
 .list-social-icons a .fa-lg {
@@ -70,7 +70,7 @@ hr {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #408ec9;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -146,16 +146,16 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  /* background-color: #BD5D38 !important; */
+  /* background-color: #408ec9 !important; */
   background-image: url("/img/auto_car1.jpg");
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #408ec9 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #408ec9;
 }
 
 a:hover, a:focus, a:active {
@@ -163,10 +163,12 @@ a:hover, a:focus, a:active {
 }
 
 .grey_button{
-    color:#495057;
+    background-color: #495057
+    /* color:#495057; */
     cursor:pointer;
 }
 
 .grey_button:hover{
-    color:#BD5D38;
+  background-color: #408ec9
+    /* color:#408ec9; */
 }
