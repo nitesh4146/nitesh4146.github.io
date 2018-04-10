@@ -44,6 +44,10 @@ hr {
     color: #000000;
 }
 
+.button {
+    background-color: #495057;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
