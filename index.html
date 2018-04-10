@@ -135,19 +135,6 @@
             </li>
           </ul>
         </div>
-              <form class="form" id="contactForm" action="//formspree.io/contact@guptanitish.com" method="post">
-                  <input type="text" name="Name" placeholder="Your name" required>
-                  <input type="email" name="Email" placeholder="Email" required>
-                  <input type="tel" name="Phone" placeholder="Phone">
-                  <input type="text" name="Subject" placeholder="Subject">
-                  <textarea name="Message" cols="30" rows="10" placeholder="Message" required></textarea>
-                  <!-- CONFIG -->
-                  <input class="is-hidden" type="text" name="_gotcha">
-                  <input type="hidden" name="_subject" value="Contact by Site">
-                  <input type="hidden" name="_cc" value="cc@email.com">
-                  <!-- /CONFIG -->
-                  <input class="submit" type="submit" value="Send">
-              </form>
       </section>
 
 <!-- Education Section -->
@@ -530,7 +517,29 @@
         </div>
       </section>
 
+<!-- Interests Section -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
+        <div class="my-auto">
+          <form class="form" id="contactForm" action="//formspree.io/contact@guptanitish.com" method="post">
+              <input type="text" name="Name" placeholder="Your name" required>
+              <input type="email" name="Email" placeholder="Email" required>
+              <input type="tel" name="Phone" placeholder="Phone">
+              <input type="text" name="Subject" placeholder="Subject">
+              <textarea name="Message" cols="30" rows="10" placeholder="Message" required></textarea>
+              <!-- CONFIG -->
+              <input class="is-hidden" type="text" name="_gotcha">
+              <input type="hidden" name="_subject" value="Contact by Site">
+              <input type="hidden" name="_cc" value="cc@email.com">
+              <!-- /CONFIG -->
+              <input class="submit" type="submit" value="Send">
+          </form>
+        </div>
+      </section>
     </div>
+
+
+
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -541,6 +550,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    <script src="js/contactForm.js"></script>
+
 
   </body>
   <footer>
