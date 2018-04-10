@@ -135,11 +135,19 @@
             </li>
           </ul>
         </div>
-<form method="POST" action="https://formspree.io/contact@guptanitish.com">
-<input type="email" name="email" placeholder="Your email">
-<textarea name="message" placeholder="Your message"></textarea>
-<button type="submit">Send</button>
-</form>
+              <form class="form" id="contactForm" action="//formspree.io/contact@guptanitish.com" method="post">
+                  <input type="text" name="Name" placeholder="Your name" required>
+                  <input type="email" name="Email" placeholder="Email" required>
+                  <input type="tel" name="Phone" placeholder="Phone">
+                  <input type="text" name="Subject" placeholder="Subject">
+                  <textarea name="Message" cols="30" rows="10" placeholder="Message" required></textarea>
+                  <!-- CONFIG -->
+                  <input class="is-hidden" type="text" name="_gotcha">
+                  <input type="hidden" name="_subject" value="Contact by Site">
+                  <input type="hidden" name="_cc" value="cc@email.com">
+                  <!-- /CONFIG -->
+                  <input class="submit" type="submit" value="Send">
+              </form>
       </section>
 
 <!-- Education Section -->
