@@ -523,21 +523,25 @@
           <h2 class="mb-5">Contact me</h2>
 
           <form class="form" id="contactForm" action="//formspree.io/contact@guptanitish.com" method="post">
-            <div class="my-auto">
-              <input type="text" name="Name" placeholder="Your name" required><br>
-              <input type="email" name="Email" placeholder="Email" required><br>
-              <input type="tel" name="Phone" placeholder="Phone"><br>
-              <input type="text" name="Subject" placeholder="Subject"><br>
-            </div>
-            <div class="my-auto">
-              <textarea name="Message" cols="30" rows="10" placeholder="Message" required></textarea>
+            <div>
+              <div class="my-auto">
+                <input type="text" name="Name" placeholder="Your name" required><br>
+                <input type="email" name="Email" placeholder="Email" required><br>
+                <input type="tel" name="Phone" placeholder="Phone"><br>
+                <input type="text" name="Subject" placeholder="Subject"><br>
+              </div>
+              <div class="text-md-right">
+                <textarea name="Message" cols="30" rows="10" placeholder="Message" required></textarea>
+              </div>
             </div>
               <!-- CONFIG -->
               <input class="is-hidden" type="text" name="_gotcha">
               <input type="hidden" name="_subject" value="Contact by Site">
               <input type="hidden" name="_cc" value="cc@email.com">
               <!-- /CONFIG -->
+            <div>
               <input class="submit" type="submit" value="Send">
+            </div>
           </form>
         </div>
       </section>
