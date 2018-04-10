@@ -149,9 +149,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
-  background-image: url("/img/profile.jpg");
-
+  /* background-color: #BD5D38 !important; */
+  background-image: url("/img/auto_car1.jpg");
 }
 
 .text-primary {
