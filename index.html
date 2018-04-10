@@ -517,7 +517,7 @@
         </div>
       </section>
 
-<!-- Interests Section -->
+<!-- Contact Section -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
         <div class="my-auto">
           <h2 class="mb-5">Contact me</h2>
@@ -525,21 +525,24 @@
           <form class="form" id="contactForm" action="//formspree.io/contact@guptanitish.com" method="post">
             <div>
               <div class="my-auto">
-                <input type="text" name="Name" placeholder="Your name" required><br>
-                <input type="email" name="Email" placeholder="Email" required><br>
-                <input type="tel" name="Phone" placeholder="Phone"><br>
-                <input type="text" name="Subject" placeholder="Subject"><br>
+                <div>
+                  <span><i class="fa fa-user fa-fw"></i></span>
+                  <input type="text" name="Name" placeholder="Your name (required)" required><br>
+                </div>
+                <div><input type="email" name="Email" placeholder="Email (required)" required><br></div>
+                <div><input type="tel" name="Phone" placeholder="Phone"><br></div>
+                <div><input type="text" name="Subject" placeholder="Subject"><br></div>
               </div>
               <div class="text-md-right">
-                <textarea name="Message" cols="30" rows="10" placeholder="Message" required></textarea>
+                <textarea name="Message" cols="30" rows="10" placeholder="Message (required)" required></textarea>
               </div>
             </div>
+            <div class="text-md-center">
               <!-- CONFIG -->
               <input class="is-hidden" type="text" name="_gotcha">
               <input type="hidden" name="_subject" value="Contact by Site">
               <input type="hidden" name="_cc" value="cc@email.com">
               <!-- /CONFIG -->
-            <div>
               <input class="submit" type="submit" value="Send">
             </div>
           </form>
