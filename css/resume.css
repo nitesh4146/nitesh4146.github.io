@@ -163,12 +163,14 @@ a:hover, a:focus, a:active {
 }
 
 .grey_button{
-    background-color: #495057
+    background-color: #495057;
+    border: 2px solid #000000;
     /* color:#495057; */
     cursor:pointer;
 }
 
 .grey_button:hover{
   background-color: #408ec9
+  border: 2px solid #000000;
     /* color:#408ec9; */
 }
