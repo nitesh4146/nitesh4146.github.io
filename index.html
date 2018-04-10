@@ -7,7 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <style>
+    * {
+        box-sizing: border-box;
+    }
 
+    /* Create two equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    </style>
     <!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /> -->
     <link rel="icon" type="image/png" href="favicon.png">
     <title>Nitish Gupta</title>
@@ -518,6 +537,7 @@
       </section>
 
 <!-- Contact Section -->
+
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
         <div class="my-auto">
           <h2 class="mb-5">Contact me</h2>
@@ -554,7 +574,7 @@
           </form>
         </div>
       </section>
-      
+
     </div>
 
 
