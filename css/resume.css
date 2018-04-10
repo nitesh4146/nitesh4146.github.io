@@ -244,3 +244,8 @@ a:hover, a:focus, a:active {
     background-color: #5cb85c;
     color: white;
 }
+
+/* Scrollbar color */
+.scrollbar {
+    background-color: #408ec9;
+}
