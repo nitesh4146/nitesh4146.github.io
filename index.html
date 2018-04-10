@@ -7,26 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <style>
-    * {
-        box-sizing: border-box;
-    }
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-    /* Create two equal columns that floats next to each other */
-    .column {
-        float: left;
-        width: 50%;
-        padding: 10px;
-        height: 300px; /* Should be removed. Only for demonstration */
-    }
-
-    /* Clear floats after the columns */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    </style>
     <!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /> -->
     <link rel="icon" type="image/png" href="favicon.png">
     <title>Nitish Gupta</title>
@@ -542,43 +526,52 @@
         <div class="my-auto">
           <h2 class="mb-5">Contact me</h2>
 
-          <form class="form" id="contactForm" action="//formspree.io/contact@guptanitish.com" method="post">
-            <div>
-              <div class="row">
-
-                <div class="column">
-                  <div>
-                    <span><i class="fa fa-user fa-fw"></i></span>
-                    <input type="text" name="Name" placeholder="Your name (required)" required><br>
+          <div class="container">
+          	<div class="row">
+          	  <form role="form">
+                  <div class="form-group col-xs-10 col-sm-4 col-md-4 col-lg-4">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
                   </div>
-                  <div><input type="email" name="Email" placeholder="Email (required)" required><br></div>
-                  <div><input type="tel" name="Phone" placeholder="Phone"><br></div>
-                  <div><input type="text" name="Subject" placeholder="Subject"><br></div>
-                </div>
+                  <div class="form-group col-xs-10 col-sm-4 col-md-4 col-lg-4">
+                      <label for="exampleInputEmail1">Name</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Name">
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="form-group col-xs-10 col-sm-4 col-md-4 col-lg-4">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="form-group col-xs-10 col-sm-4 col-md-4 col-lg-4">
+                      <label for="exampleInputPassword1">Confirm Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="form-group col-xs-10 col-sm-10 col-md-4 col-lg-4">
+                      <label for="exampleInputFile">File input</label>
+                      <input type="file" id="exampleInputFile">
+                      <p class="help-block">Example block-level help text here.</p>
+                  </div>
+                  <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4">
+                      <label>
+                          <input type="radio"> Check me out<input type="radio"> Check me out<input type="radio"> Check me out
+                      </label>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="col-xs-10 col-sm-4 col-md-4 col-lg-4">
+                      <button type="submit" class="btn btn-default">Submit</button>
+                  </div>
+              </form>
+              <div class="clearfix"></div>
 
-                <div class="column">
-                  <textarea name="Message" cols="30" rows="10" placeholder="Message (required)" required></textarea>
-                </div>
+              <br /><br />
+          	</div>
+          </div>
 
-              </div>
-
-              <div class="text-md-center">
-                <!-- CONFIG -->
-                <input class="is-hidden" type="text" name="_gotcha">
-                <input type="hidden" name="_subject" value="Contact by Site">
-                <input type="hidden" name="_cc" value="cc@email.com">
-                <!-- /CONFIG -->
-                <input class="submit" type="submit" value="Send">
-              </div>
-            </div>
-          </form>
         </div>
       </section>
 
     </div>
-
-
-
 
 
     <!-- Bootstrap core JavaScript -->
