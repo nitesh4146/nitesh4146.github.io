@@ -162,12 +162,11 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
-button{
+.grey_button{
     color:#495057;
     cursor:pointer;
 }
 
-button:hover{
+.grey_button:hover{
     color:#BD5D38;
-    cursor:pointer;
 }
