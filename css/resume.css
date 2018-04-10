@@ -44,10 +44,7 @@ hr {
     color: #000000;
 }
 
-.btn{
-    background-color:red;
-    cursor:pointer;
-}
+
 
 .subheading {
   text-transform: uppercase;
@@ -163,4 +160,14 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+button{
+    color:#495057;
+    cursor:pointer;
+}
+
+button:hover{
+    color:#BD5D38;
+    cursor:pointer;
 }
