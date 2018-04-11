@@ -1,4 +1,4 @@
-### <p>Website: https://www.guptanitish.com | Blog: http://www.slickmind.in</p>
+### <p>Portfolio: https://www.guptanitish.com | Blog: http://www.slickmind.in</p>
 
 Created by: Nitish Gupta<br>
 Year: 2018<br>
