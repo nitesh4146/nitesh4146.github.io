@@ -4,4 +4,4 @@ Created by: Nitish Gupta<br>
 Year: 2018<br>
 License: MIT Open Source<br>
 
-Theme Inspired by: Bootstrap and Jekyll
+<b>Theme Inspired by:</b> Bootstrap and Jekyll
