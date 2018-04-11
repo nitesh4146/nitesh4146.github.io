@@ -654,6 +654,37 @@
         </div>
       </section>
 
+
+      <!-- Video on button -->
+          <button onclick="myFunction()">Test Video</button>
+          <div id="myDIV" style="display:none;">
+            <!-- <iframe src="https://player.vimeo.com/video/3873878?autoplay=1" width="320" height="240" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_7CxPbTZmu0?rel=0;&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    </div>
+
+          <script>
+          function myFunction() {
+              var x = document.getElementById("myDIV");
+              if (x.style.display === "none") {
+                  x.style.display = "block";
+              } else {
+                  x.style.display = "none";
+              }
+          }
+
+          $(window).scroll(function(){
+            var x = document.getElementById("myDIV");
+
+           if ($(this).scrollTop()>0){
+               x.fadeOut();
+            }
+           else{
+             x.fadeIn();
+            }
+          });
+
+          </script>
+      <!-- Video on button -->
+
 <!-- Contact Section -->
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
@@ -757,35 +788,6 @@
     <script src="js/resume.min.js"></script>
     <script src="js/contactForm.js"></script>
 
-<!-- Video on button -->
-    <button onclick="myFunction()">Test Video</button>
-    <div id="myDIV" style="display:none;">
-      <!-- <iframe src="https://player.vimeo.com/video/3873878?autoplay=1" width="320" height="240" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/_7CxPbTZmu0?rel=0;&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    </div>
-
-    <script>
-    function myFunction() {
-        var x = document.getElementById("myDIV");
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }
-    }
-
-    $(window).scroll(function(){
-      var x = document.getElementById("myDIV");
-
-     if ($(this).scrollTop()>0){
-         x.fadeOut();
-      }
-     else{
-       x.fadeIn();
-      }
-    });
-
-    </script>
-<!-- Video on button -->
 
   </body>
 
