@@ -1,4 +1,4 @@
-<p>### Website: https://www.guptanitish.com | Blog: http://www.slickmind.in</p>
+### <p>Website: https://www.guptanitish.com | Blog: http://www.slickmind.in</p>
 
 
 <p>Created by: Nitish Gupta</p>
