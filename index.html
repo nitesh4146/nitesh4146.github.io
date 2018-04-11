@@ -70,19 +70,14 @@
           height: 50px;
           text-align: center;
           border-radius: 4px;
-          margin: 5px;
           position: fixed;
-          bottom: 5px;
-          right: 5px;
-          transition: background-color .3s;
+          bottom: 30px;
+          right: 30px;
+          transition: background-color .3s,
+            opacity .5s, visibility .5s;
+          opacity: 0;
+          visibility: hidden;
           z-index: 1000;
-        }
-        #button:hover {
-          cursor: pointer;
-          background-color: #408ec9;
-        }
-        #button:active {
-          background-color: #408ec9;
         }
         #button::after {
           content: "\f077";
@@ -92,6 +87,17 @@
           font-size: 2em;
           line-height: 50px;
           color: #fff;
+        }
+        #button:hover {
+          cursor: pointer;
+          background-color: #408ec9;
+        }
+        #button:active {
+          background-color: #408ec9;
+        }
+        #button.show {
+          opacity: 1;
+          visibility: visible;
         }
 
         /* Toggle header */
