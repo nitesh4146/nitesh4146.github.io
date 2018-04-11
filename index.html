@@ -672,13 +672,11 @@
           }
 
           $(window).scroll(function(){
-            var x = document.getElementById("myDIV");
-
            if ($(this).scrollTop()>0){
-               x.fadeOut();
+             $("#myDIV").fadeOut();
             }
            else{
-             x.fadeIn();
+             $("#myDIV").fadeIn();
             }
           });
 
