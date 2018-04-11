@@ -254,3 +254,8 @@ a:hover, a:focus, a:active {
     border-right: 4px solid;
     height: 500px;
 }
+
+#map{
+  height: 400px;
+  width: 100%;
+}
