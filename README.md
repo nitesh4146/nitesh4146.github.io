@@ -1,7 +1,7 @@
 ### Website: https://www.guptanitish.com | Blog: http://www.slickmind.in
 
-Created by: Nitish Gupta
 
+<p>Created by: Nitish Gupta</p>
 Year: 2018
 
 License: MIT Open Source
