@@ -249,3 +249,8 @@ a:hover, a:focus, a:active {
 .scrollbar {
     background-color: #408ec9;
 }
+
+.vl {
+    border-right: 6px solid;
+    height: 500px;
+}
