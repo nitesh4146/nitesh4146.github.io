@@ -386,7 +386,34 @@
 
                 <b>Drivers Behavior Cloning</b><br>
                 <li>
-                  <p>To be added</p>
+                  <p>To be added</p><br>
+                  <!-- Video on button -->
+                      <button onclick="myFunction()" class="grey_button btn-primary btn-lg">Watch Demo</button>
+                      <div id="myDIV" style="display:none;">
+                        <!-- <iframe src="https://player.vimeo.com/video/3873878?autoplay=1" width="320" height="240" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_7CxPbTZmu0?rel=0;&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    </div>
+
+                      <script>
+                      function myFunction() {
+                          var x = document.getElementById("myDIV");
+                          if (x.style.display === "none") {
+                              x.style.display = "block";
+                          } else {
+                              x.style.display = "none";
+                          }
+                      }
+
+                      $(window).scroll(function(){
+                       if ($(this).scrollTop()>0){
+                         $("#myDIV").fadeOut();
+                        }
+                       else{
+                         $("#myDIV").fadeIn();
+                        }
+                      });
+
+                      </script>
+                  <!-- Video on button -->
                 </li>
 
                 <b>Advanced Tracffic Sign Classication</b><br>
@@ -654,34 +681,6 @@
         </div>
       </section>
 
-
-      <!-- Video on button -->
-          <button onclick="myFunction()">Test Video</button>
-          <div id="myDIV" style="display:none;">
-            <!-- <iframe src="https://player.vimeo.com/video/3873878?autoplay=1" width="320" height="240" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_7CxPbTZmu0?rel=0;&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    </div>
-
-          <script>
-          function myFunction() {
-              var x = document.getElementById("myDIV");
-              if (x.style.display === "none") {
-                  x.style.display = "block";
-              } else {
-                  x.style.display = "none";
-              }
-          }
-
-          $(window).scroll(function(){
-           if ($(this).scrollTop()>0){
-             $("#myDIV").fadeOut();
-            }
-           else{
-             $("#myDIV").fadeIn();
-            }
-          });
-
-          </script>
-      <!-- Video on button -->
 
 <!-- Contact Section -->
 
