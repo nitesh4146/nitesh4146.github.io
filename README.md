@@ -1,3 +1,7 @@
 ### Website: https://www.guptanitish.com | Blog: http://www.slickmind.in
 
-Theme Inspired by: https://github.com/BlackrockDigital/startbootstrap-resume and https://github.com/brianmaierjr/long-haul
+Created by: Nitish Gupta
+Year: 2018
+License: MIT Open Source
+
+Theme Inspired by: Bootstrap and Jekyll
