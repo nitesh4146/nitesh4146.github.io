@@ -774,11 +774,13 @@
     }
 
     $(window).scroll(function(){
+      var x = document.getElementById("myDIV");
+
      if ($(this).scrollTop()>0){
-         $('myDiv').fadeOut();
+         x.fadeOut();
       }
      else{
-       $('myDiv').fadeIn();
+       x.fadeIn();
       }
     });
 
