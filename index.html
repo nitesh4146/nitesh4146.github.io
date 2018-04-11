@@ -772,6 +772,16 @@
             x.style.display = "none";
         }
     }
+
+    $(window).scroll(function(){
+     if ($(this).scrollTop()>0){
+         $("myDiv").fadeOut();
+      }
+     else{
+       $("myDiv").fadeIn();
+      }
+    });
+
     </script>
 <!-- Video on button -->
 
