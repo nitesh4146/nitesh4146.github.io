@@ -507,7 +507,7 @@
                        if ($(this).scrollTop()>0){
                          $("#myDIV").fadeOut();
                         }
-                       else{
+                       else if ($(this).scrollBottom()>0){
                          $("#myDIV").fadeIn();
                         }
                       });
