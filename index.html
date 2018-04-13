@@ -239,6 +239,8 @@
     <div class="container-fluid p-0">
 
 <!-- About Section -->
+<div align="right">Beta Version</div>
+
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="text-md-center my-auto">
           <h1 class="mb-0">Nitish
@@ -503,14 +505,15 @@
                 <li>
                   <p>To be added</p>
                   <!-- Video on button -->
-                      <button onclick="myFunction()" class="grey_button btn-primary btn-lg">Watch Demo</button>
-                      <div id="myDIV" style="display:none;">
-                        <!-- <iframe src="https://player.vimeo.com/video/3873878?autoplay=1" width="320" height="240" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_7CxPbTZmu0?rel=0;&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    </div>
+                      <div id="dbc" style="display:none;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_7CxPbTZmu0?rel=0;&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+
+                      <button onclick="dbcFunction()" class="grey_button btn-primary btn-lg">Watch Demo</button>
 
                       <script>
-                      function myFunction() {
-                          var x = document.getElementById("myDIV");
+                      function dbcFunction() {
+                          var x = document.getElementById("dbc");
                           if (x.style.display === "none") {
                               x.style.display = "block";
                           } else {
@@ -519,8 +522,8 @@
                       }
 
                       $(window).scroll(function(){
-                       if ($(window).scrollTop()>3200){
-                         $("#myDIV").fadeOut();
+                       if ($(window).scrollTop()>3350){
+                         $("#dbc").fadeOut();
                         }
                        else{
                          // $("#myDIV").fadeIn();
@@ -561,11 +564,100 @@
                 <b>Autonomous Rescue Robot</b><br>
                 <li>
                   <p>To be added</p>
+                  <!-- Video on button -->
+                      <div id="arr" style="display:none;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YSE9J7ifyFM?rel=0;&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+
+                      <button onclick="arrFunction()" class="grey_button btn-primary btn-lg">Watch Demo</button>
+
+                      <script>
+                      function arrFunction() {
+                          var x = document.getElementById("arr");
+                          if (x.style.display === "none") {
+                              x.style.display = "block";
+                          } else {
+                              x.style.display = "none";
+                          }
+                      }
+
+                      $(window).scroll(function(){
+                       if ($(window).scrollTop()>3800){
+                         $("#arr").fadeOut();
+                        }
+                       else{
+                         // $("#myDIV").fadeIn();
+                        }
+                      });
+
+                      </script>
+                  <!-- Video on button -->
                 </li>
+                <br>
 
                 <b>Path Planning and Q-Learning in a grid world</b><br>
                 <li>
                   <p>To be added</p>
+                  <!-- Video on button -->
+                      <div id="astar" style="display:none;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AoC0ASzCcrA?rel=0;&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                      <div id="qlearn" style="display:none;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tJoS_Y2Aewc?rel=0;&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+
+                      <button onclick="astarFunction()" class="grey_button btn-primary btn-lg">A-star Demo</button>
+                      <button onclick="qlearnFunction()" class="grey_button btn-primary btn-lg">Q-Learning Demo</button>
+
+                      <script>
+                      function astarFunction() {
+                          var x = document.getElementById("astar");
+                          var y = document.getElementById("qlearn");
+                          if (x.style.display === "none") {
+                            if (y.style.display === "block") {
+                              y.style.display = "none";
+                            }
+                              x.style.display = "block";
+                          } else {
+                              x.style.display = "none";
+                          }
+                      }
+
+                      $(window).scroll(function(){
+                       if ($(window).scrollTop()>3900){
+                         $("#astar").fadeOut();
+                        }
+                       else{
+                         // $("#myDIV").fadeIn();
+                        }
+                      });
+
+                      </script>
+                      <script>
+                      function qlearnFunction() {
+                          var x = document.getElementById("qlearn");
+                          var y = document.getElementById("astar");
+                          if (x.style.display === "none") {
+                            if (y.style.display === "block") {
+                              y.style.display = "none";
+                            }
+                              x.style.display = "block";
+                          } else {
+                              x.style.display = "none";
+                          }
+                      }
+
+                      $(window).scroll(function(){
+                       if ($(window).scrollTop()>3900){
+                         $("#qlearn").fadeOut();
+                        }
+                       else{
+                         // $("#myDIV").fadeIn();
+                        }
+                      });
+
+                      </script>
+                  <!-- Video on button -->
                 </li>
 
               </ul>
