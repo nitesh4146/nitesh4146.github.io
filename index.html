@@ -39,14 +39,12 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
 
-    <!-- FontAwesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-
     <!-- Modal -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <style>
+
         #map {
         height: 280px;
         /* width: 100%; */
@@ -521,11 +519,11 @@
                       }
 
                       $(window).scroll(function(){
-                       if ($(this).scrollTop()>300){
+                       if ($(window).scrollTop()>3200){
                          $("#myDIV").fadeOut();
                         }
-                       else if ($(this).scrollBottom()>300){
-                         $("#myDIV").fadeIn();
+                       else{
+                         // $("#myDIV").fadeIn();
                         }
                       });
 
@@ -776,22 +774,22 @@
           <h2 class="mb-5">Publications &amp; Archive</h2>
           <ul class="fa-ul mb-0">
             <li>
-              <i class="fa-li far fa-file-pdf"></i>
+              <i class="fa-li fa fa-file"></i>
               <a href="https://arxiv.org/pdf/1802.10138.pdf" target="_blank">Nitish A. Gupta, Sayyed Jaffar Ali Raza, Gita R. Sukthankar, Nisarg Chitalaya, <i>Real-World Modeling of Path Finding Agent Using Robot Operating System (ROS), FCRAR, vol.30, May 2017</a></i></li><br>
             <li>
-              <i class="fa-li far fa-file-pdf"></i>
+              <i class="fa-li fa fa-archive"></i>
               <a href="/docs/Adaptive_Content_Control.pdf" target="_blank">Nitish A. Gupta, <i>An Implementation of Adaptive Content Control for Cooperative Automated Vehicles, March 2017</i></a></li><br>
             <li>
-              <i class="fa-li far fa-file-pdf"></i>
+              <i class="fa-li fa fa-archive"></i>
               <a href="/docs/A_Concurrent_Physics_Engine.pdf" target="_blank">Nitish A. Gupta, Sumit Bhattacharya, Tyler Truong, <i>A Concurrent Physics Engine, Dec. 2016</i></a></li><br>
             <li>
-              <i class="fa-li far fa-file-pdf"></i>
+              <i class="fa-li fa fa-archive"></i>
               <a href="/docs/Improvement_techniques_for_Self-Localization.pdf" target="_blank">Nitish A. Gupta, <i>A Review on Improvement techniques for Self-Localization in RoboCup Soccer, March 2017</i></a></li><br>
             <li>
-              <i class="fa-li far fa-file-pdf"></i>
+              <i class="fa-li fa fa-archive"></i>
               <a href="/docs/Color_Transfer.pdf" target="_blank">Nitish A. Gupta, <i>Color Transfer Between Images, April 2017</i></a></li><br>
             <li>
-              <i class="fa-li far fa-file-pdf"></i>
+              <i class="fa-li fa fa-archive"></i>
               <a href="/docs/2D_Discrete_Wavelets_Transform.pdf" target="_blank">Nitish A. Gupta, <i>An Analysis of 2D Discrete Wavelet Transforms, May 2017</i></a></li>
 
           </ul>
