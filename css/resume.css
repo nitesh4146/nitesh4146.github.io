@@ -76,6 +76,7 @@ hr {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
+  background-color: 0;
 }
 
 
@@ -147,7 +148,7 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   /* background-color: #408ec9 !important; */
-  background-image: url("/img/auto_car1.jpg");
+  /* background-image: url("/img/auto_car1.jpg"); */
 }
 
 .text-primary {
