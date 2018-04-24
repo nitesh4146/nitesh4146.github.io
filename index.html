@@ -254,13 +254,13 @@
               &#10078;</i> &mdash; <span class="text-primary">Henry Ford</span></h4></p>
           </div>
           <h4 class="mb-2">In A Nutshell</h4>
-          <p class="mb-0">I am a Graduate student and a Cooperative Autonomous Vehicle Researcher at
+          <p class="mb-5">I am a Graduate student and a Cooperative Autonomous Vehicle Researcher at
             <a href="http://www.eecs.ucf.edu/NSL/" target="_blank">Networked Systems Lab, UCF</a>.
-            Here we work on cutting-edge technologies in the field of Connected Autonomous Vehicles.
-            Our main focus of research is Safety Applications and Advanced driver-assistance systems
-            (ADAS). My specialties include developing DSRC based safety applications, Deep Learning,
-            Localization and Path Planning.</p>
-          <p class="mb-5">With the advancements in the Autonomous vehicle space, there's a lot more to come from us.</p>
+            Here I work on cutting-edge technologies in the field of Connected Autonomous Vehicles.
+            My main research focus is Safety Applications and Advanced driver-assistance systems
+            (ADAS) for automated vehicles. My specialities also include tackling challenges in Sensor
+            Fusion, Path Planning and Localization by developing highly robust algorithms & accurate deep learning models.
+            <br>In my leisure time, I play chess, read blogs and travel. If you share a similar motivation and interests, <br><b>let's connect!</b></p>
 
           <ul class="list-inline list-social-icons mb-5">
             <li class="list-inline-item">
@@ -458,7 +458,7 @@
               <ul>
                 <li>
                 <b>Advance Vehicle Emulator</b> &#8212; <i>Sponser: Ford Motor Company</i><br>
-                  <p>The first of its kind Connected Vehicle Emulator (and Channel Simulator)
+                  <p align="justify">The first of its kind Connected Vehicle Emulator (and Channel Simulator)
                     system designed to tackle challenges in the testing of Safety Applications
                     for Cooperative Vehicles. The main idea behind this project is to simulate
                     a network of multiple virtual vehicles using a single Broadcaster (DSRC or
@@ -472,7 +472,7 @@
                 </li>
                 <li>
                 <b>Vehicle Safety Communications Applications</b> &#8212; <i>Sponser: CAMP</i><br>
-                  <p>The research goal is to verify the performance of connected cooperative
+                  <p align="justify">The research goal is to verify the performance of connected cooperative
                     vehicular safety system using Dedicated Short Range Communications (DSRC)
                     communication over 5.9GHz dedicated wireless channel under both highly
                     congested and uncongested traffic condition.
@@ -491,7 +491,7 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Machine Learning Intern</h3>
               <div class="subheading mb-3">GIANT Health Events</div>
-              <ul><li>Built highly accurate models based on SVM and Regression techniques
+              <ul><li align="justify">Built highly accurate models based on SVM and Regression techniques
                 to predict potential event attendees from the scrapped social network data
                 and thus reduce human eorts and increase business.</p></li></ul>
             </div>
@@ -505,10 +505,10 @@
               <h3 class="mb-0">Business Intelligence Developer</h3>
               <div class="subheading mb-3">Tata Consultancy Services</div>
               <ul>
-                <li><p>Migrated 95 high-complexity reports into production (Business
+                <li><p align="justify">Migrated 95 high-complexity reports into production (Business
                 Objects and Crystal reports to Microstrategy) within 3 months, along
                  with a team of four members (Agile methodology)</p></li>
-                <li><p>Developed Interactive reports in Microstrategy to calculate and
+                <li><p align="justify">Developed Interactive reports in Microstrategy to calculate and
                   analyze financial tax for ABN-AMRO bank</p></li></ul>
             </div>
             <div class="resume-date text-md-right">
@@ -532,16 +532,21 @@
               <div class="subheading mb-3">NSL | Udacity Nanodegree</div>
               <ul class="fa-ul mb-0">
 
-                <b>Drivers Behavior Cloning</b><br>
+                <b>Drivers Behavior Cloning</b>
                 <li>
-                  <p>To be added</p>
+                  <p><ul>
+                    <li align="justify">Designed a CNN model to predict Steering wheel angles based on the Manual Driving Behavior</li>
+                    <li align="justify">Achieved a Validation loss of as low as 0.35%</li>
+                    <li align="justify">Autonomous Driving mode was tested on the Udacity's Unity based Self-Driving Simulator</li>
+                    <li align="justify">Driving behaviour involved Center-Lane driving, Sharp turns, Visual changes to road and surroundings</li>
+                  </ul></p>
                   <!-- Video on button -->
-                      <div id="dbc" style="display:none;">
+                      <div align="center" id="dbc" style="display:none;">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/_7CxPbTZmu0?rel=0;&autoplay=0"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                       </div>
 
-                      <button onclick="dbcFunction()" class="grey_button btn-primary btn-lg">Watch Demo</button>
+                      <div align="center"><button onclick="dbcFunction()" class="grey_button btn-primary btn-lg">Watch Demo</button></div>
 
                       <script>
                       function dbcFunction() {
@@ -554,7 +559,7 @@
                       }
 
                       $(window).scroll(function(){
-                       if ($(window).scrollTop()>3350){
+                       if ($(window).scrollTop()>3450){
                          $("#dbc").fadeOut();
                         }
                        else{
@@ -566,24 +571,101 @@
                   <!-- Video on button -->
                 </li>
                 <br>
-                <b>Advanced Tracffic Sign Classication</b><br>
+
+                <b>Advanced Tracffic Sign Classication</b>
                 <li>
-                  <p>To be added</p>
+                  <p><ul>
+                    <li align="justify">Built and Fine-tuned a Convolutional Neural Network to classify traffic signs from the German
+                      Traffic Sign Dataset</li>
+                    <li align="justify">Preprocessed the training set images to generate Augmented images</li>
+                    <li align="justify">Attained an accuracy of 95% on Test Dataset and 97% on Validation Dataset</li>
+                    <li align="justify">Linked the model with a camera application to classify traffic signs in real-time</li>
+                  </ul></p>
                 </li>
+
                 <b>Vehicle Detection and Tracking</b><br>
                 <li>
-                  <p>To be added</p>
-                </li>
+                  <p><ul>
+                    <li align="justify">Trained an SVM classifier to distinguish between car and non-car images with 98.56 % accuracy</li>
+                    <li align="justify">Streamed Sliding bounding boxes of different scales to detect presence of a vehicle</li>
+                    <li align="justify">Developed a heat-map of all positively detected vehicles to remove false positive based on a threshold</li>
+                  </ul></p>
+
+                  <!-- Video on button -->
+                      <div align="center" id="vdt" style="display:none;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/c7aZaaTVD5g?rel=0;&autoplay=0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+
+                      <div align="center"><button onclick="vdtFunction()" class="grey_button btn-primary btn-lg">Watch Demo</button></div>
+
+                      <script>
+                      function vdtFunction() {
+                          var x = document.getElementById("vdt");
+                          if (x.style.display === "none") {
+                              x.style.display = "block";
+                          } else {
+                              x.style.display = "none";
+                          }
+                      }
+
+                      $(window).scroll(function(){
+                       if ($(window).scrollTop()>3900){
+                         $("#vdt").fadeOut();
+                        }
+                       else{
+                         // $("#myDIV").fadeIn();
+                        }
+                      });
+
+                      </script>
+                  <!-- Video on button -->
+                </li> <br>
+
                 <b>Real-Time Lane Detection</b><br>
                 <li>
-                  <p>To be added</p>
+                  <p><ul>
+                    <li align="justify">Extracted Lane lines from multiple color spaces</li>
+                    <li align="justify">Fitted the extracted lane points into a polynomial</li>
+                    <li align="justify">Applied a sliding window recursively to find lane lines in every successive frame</li>
+                  </ul></p>
+
+                    <!-- Video on button -->
+                        <div align="center" id="ald" style="display:none;">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/cfQBlcXziMQ?rel=0;&autoplay=0"
+                          frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+
+                        <div align="center"><button onclick="aldFunction()" class="grey_button btn-primary btn-lg">Watch Demo</button></div>
+
+                        <script>
+                        function aldFunction() {
+                            var x = document.getElementById("ald");
+                            if (x.style.display === "none") {
+                                x.style.display = "block";
+                            } else {
+                                x.style.display = "none";
+                            }
+                        }
+
+                        $(window).scroll(function(){
+                         if ($(window).scrollTop()>3980){
+                           $("#ald").fadeOut();
+                          }
+                         else{
+                           // $("#myDIV").fadeIn();
+                          }
+                        });
+
+                        </script>
+                    <!-- Video on button -->
                 </li>
 
               </ul>
 
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Feb 2017 - Present</span>
+              <!-- <span class="text-primary">Feb 2017 - Present</span> -->
             </div>
           </div>
 
@@ -595,14 +677,23 @@
 
                 <b>Autonomous Rescue Robot</b><br>
                 <li>
-                  <p>To be added</p>
+                    <p><ul>
+                      <li align="justify">Built a 4-wheeled autonomous car for search and rescue operations in a disaster-affected
+                        area to identify victims</li>
+                      <li align="justify">Programmed ROS (Robot Operating System) nodes for gathering the odometry data along with
+                        the scans from Kinect sensor(to create Octotree and Occupancy maps) into Raspberry-Pi</li>
+                      <li align="justify">Implemented a particle filter for localization and a path planning algorithm for navigation
+                        to various goals using offline maps created during the training phase</li>
+                      <li align="justify">Two-way control - Teleoperation or Autonomous</li>
+                    </ul></p>
+
                   <!-- Video on button -->
-                      <div id="arr" style="display:none;">
+                      <div align="center" id="arr" style="display:none;">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/YSE9J7ifyFM?rel=0;&autoplay=0"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                       </div>
 
-                      <button onclick="arrFunction()" class="grey_button btn-primary btn-lg">Watch Demo</button>
+                      <div align="center"><button onclick="arrFunction()" class="grey_button btn-primary btn-lg">Watch Demo</button></div>
 
                       <script>
                       function arrFunction() {
@@ -615,7 +706,7 @@
                       }
 
                       $(window).scroll(function(){
-                       if ($(window).scrollTop()>3800){
+                       if ($(window).scrollTop()>4400){
                          $("#arr").fadeOut();
                         }
                        else{
@@ -630,19 +721,24 @@
 
                 <b>Path Planning and Q-Learning in a grid world</b><br>
                 <li>
-                  <p>To be added</p>
+                  <p><ul>
+                    <li align="justify">Implemented A* path planning algorithm with Manhattan and Euclidean distance choice along
+                      with an Interactive grid world GUI using python’s Tkinter library</li>
+                    <li align="justify">Designed a Reinforcement/Q-learning engine with both, deterministic and stochastic behavior
+                       in the same grid world</li>
+                  </ul></p>
                   <!-- Video on button -->
-                      <div id="astar" style="display:none;">
+                      <div align="center" id="astar" style="display:none;">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/AoC0ASzCcrA?rel=0;&autoplay=0"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                       </div>
-                      <div id="qlearn" style="display:none;">
+                      <div align="center" id="qlearn" style="display:none;">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/tJoS_Y2Aewc?rel=0;&autoplay=0"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                       </div>
 
-                      <button onclick="astarFunction()" class="grey_button btn-primary btn-lg">A-star Demo</button>
-                      <button onclick="qlearnFunction()" class="grey_button btn-primary btn-lg">Q-Learning Demo</button>
+                      <div align="center"><button onclick="astarFunction()" class="grey_button btn-primary btn-lg">A-star Demo</button>
+                      <button onclick="qlearnFunction()" class="grey_button btn-primary btn-lg">Q-Learning Demo</button></div>
 
                       <script>
                       function astarFunction() {
@@ -659,7 +755,7 @@
                       }
 
                       $(window).scroll(function(){
-                       if ($(window).scrollTop()>3900){
+                       if ($(window).scrollTop()>4700){
                          $("#astar").fadeOut();
                         }
                        else{
@@ -683,7 +779,7 @@
                       }
 
                       $(window).scroll(function(){
-                       if ($(window).scrollTop()>3900){
+                       if ($(window).scrollTop()>4700){
                          $("#qlearn").fadeOut();
                         }
                        else{
@@ -699,7 +795,7 @@
 
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Feb 2017 - Present</span>
+              <!-- <span class="text-primary">Feb 2017 - Present</span> -->
             </div>
           </div>
 
@@ -711,36 +807,57 @@
 
                 <b>Surveillance Based on Tracking and Targeting</b><br>
                 <li>
-                  <p>To be added</p>
+                  <p><ul align="justify">
+                    The main motivation for this project was the horror night of 26/11 in Mumbai.
+                      This is a Real-time object tracking and targeting method in which we use CCTV camera to
+                      identify and track the target in the viewing range of the camera from surveillance room.
+                      Along with software tracking, the system will also track the object in the scene using
+                      a laser mounted robotic arm. The robotic arm operates in such a way that it covers each
+                      and every coordinate in the video frame by its pan-tilt motion.
+                  </ul></p>
                 </li>
 
                 <b>Cellphone Controlled RoboCar</b><br>
                 <li>
-                  <p>To be added</p>
+                  <p><ul align="justify">
+                    Implemented a robot car which can be controlled using cellphones/mobile devices through DTMF
+                    (Dual Tone Multi-Frequency). Unlike RF control, DTMF offers a tremendous range of operation
+                    since it uses the GSM for communication. In addition to movement controls, this car had several
+                    other features like indicator lights.
+                  </ul></p>
                 </li>
 
               </ul>
 
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Feb 2017 - Present</span>
+              <!-- <span class="text-primary">Feb 2017 - Present</span> -->
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Miscellaneous</h3>
+              <h3 class="mb-3">Miscellaneous</h3>
               <ul class="fa-ul mb-0">
 
                 <b>A Concurrent Physics Engine</b><br>
                 <li>
-                  <p>To be added</p>
+                  <p><ul>
+                    <li align="justify">Measured the performance of the different data structures in the context of a real-time physics engine</li>
+                    <li align="justify">Physics engine will move circles with random velocities around a screen. When a circle collides with the
+                      edge of the screen or another circle, it will bounce off and travel in another direction. The physics
+                      engine will divide time into equal slices called frames. Each frame will do the following in this order:
+                      Kinematics, Collision Detection, Collision Response.</li>
+                    <li align="justify">Implemented concurrent versions of the SAP list and hash grid. The implementations are tested in a physics
+                       simulation with moving objects where the data structure must detect objects that are near a point of
+                       interest.</li>
+                  </ul></p>
                 </li>
               </ul>
 
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Feb 2017 - Present</span>
+              <!-- <span class="text-primary">Feb 2017 - Present</span> -->
             </div>
           </div>
 
