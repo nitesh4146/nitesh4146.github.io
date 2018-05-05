@@ -544,11 +544,12 @@
                   <!-- Video on button -->
                       <div align="center" id="dbc" style="display:none;">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/_7CxPbTZmu0?rel=0;&autoplay=0"
-                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        style="-webkit-transform:scale(0.6);-moz-transform-scale(0.6);"
+                        frameborder="0" scrolling="no" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         <!-- <div align="center"><button onclick="dbcFunction()" class="grey_button btn-primary btn-lg">Hide</button></div> -->
                       </div>
 
-                      <div align="center"><button onclick="dbcFunction()" class="grey_button btn-primary btn-lg">Demo</button></div>
+                      <div align="center"><button onclick="dbcFunction()" class="grey_button btn-primary btn-lg">Watch Demo</button></div>
 
                       <script>
                         var scrollTop;
@@ -581,7 +582,7 @@
                   <!-- Video on button -->
                 </li>
                 <br>
-ScrollTop
+
                 <b>Advanced Tracffic Sign Classication</b>
                 <li>
                   <p><ul>
@@ -612,6 +613,8 @@ ScrollTop
                       <script>
                       function vdtFunction() {
                           var x = document.getElementById("vdt");
+                          scrollTop = $(window).scrollTop();
+
                           if (x.style.display === "none") {
                               x.style.display = "block";
                           } else {
@@ -620,7 +623,7 @@ ScrollTop
                       }
 
                       $(window).scroll(function(){
-                       if ($(window).scrollTop()>3900){
+                        if ($(window).scrollTop() > scrollTop + 600){
                          $("#vdt").fadeOut();
                         }
                        else{
@@ -649,8 +652,12 @@ ScrollTop
                         <div align="center"><button onclick="aldFunction()" class="grey_button btn-primary btn-lg">Watch Demo</button></div>
 
                         <script>
+                        var scrollTop;
+
                         function aldFunction() {
                             var x = document.getElementById("ald");
+                            scrollTop = $(window).scrollTop();
+
                             if (x.style.display === "none") {
                                 x.style.display = "block";
                             } else {
@@ -659,7 +666,7 @@ ScrollTop
                         }
 
                         $(window).scroll(function(){
-                         if ($(window).scrollTop()>3980){
+                          if ($(window).scrollTop() > scrollTop + 600){
                            $("#ald").fadeOut();
                           }
                          else{
@@ -710,8 +717,12 @@ ScrollTop
                       </div>
 
                       <script>
+                      var scrollTop;
+
                       function arrFunction() {
                           var x = document.getElementById("arr");
+                          scrollTop = $(window).scrollTop();
+
                           if (x.style.display === "none") {
                               x.style.display = "block";
                           } else {
@@ -720,7 +731,7 @@ ScrollTop
                       }
 
                       $(window).scroll(function(){
-                       if ($(window).scrollTop()>4400){
+                        if ($(window).scrollTop() > scrollTop + 600){
                          $("#arr").fadeOut();
                         }
                        else{
@@ -755,9 +766,13 @@ ScrollTop
                       <button onclick="qlearnFunction()" class="grey_button btn-primary btn-lg">Q-Learning Demo</button></div>
 
                       <script>
+                      var scrollTop;
+
                       function astarFunction() {
                           var x = document.getElementById("astar");
                           var y = document.getElementById("qlearn");
+                          scrollTop = $(window).scrollTop();
+
                           if (x.style.display === "none") {
                             if (y.style.display === "block") {
                               y.style.display = "none";
@@ -769,7 +784,7 @@ ScrollTop
                       }
 
                       $(window).scroll(function(){
-                       if ($(window).scrollTop()>4700){
+                        if ($(window).scrollTop() > scrollTop + 600){
                          $("#astar").fadeOut();
                         }
                        else{
@@ -793,7 +808,7 @@ ScrollTop
                       }
 
                       $(window).scroll(function(){
-                       if ($(window).scrollTop()>4700){
+                        if ($(window).scrollTop() > scrollTop + 600){
                          $("#qlearn").fadeOut();
                         }
                        else{
