@@ -26,6 +26,13 @@ database.ref('/feed_table/' + key).set({
 });
 
 
+for (var meal = 1; meal <= 3; meal++) {
+    for (var feed_point = 1; feed_point <= 3; feed_point++) {
+        var checkBox = document.getElementById("meal" + meal.toString() + "_feed" + feed_point.toString());
+        checkBox.checked = false;
+    }
+}
+
 function myFunction() {
 
     var all_meals_points = new Array(3); 
@@ -52,7 +59,8 @@ function myFunction() {
             }
         }
     }
-    console.log(all_meals_points);
+    // console.log(all_meals_points);
+
     database.ref('/feed_table/' + key).set({
         meal1_feed1: all_meals_points[0][0],
         meal1_feed2: all_meals_points[0][1],
