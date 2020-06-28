@@ -11,8 +11,9 @@ var meal3_feed2 = document.getElementById("meal3_feed2");
 var meal3_feed3 = document.getElementById("meal3_feed3");
 
 var d = new Date();
+var key = d.getDate().toString() + d.getMonth().toString();
 
-database.ref('/feed_table/' + d.getDate().toString() + d.getMonth().toString()).set({
+database.ref('/feed_table/' + key).set({
     meal1_feed1: false,
 });
 
@@ -20,7 +21,7 @@ function myFunction() {
 
     var text = document.getElementById("text");
     var all_meals_points = [];
-    document.getElementById("text").innerHTML = d.getDate().toString() + d.getMonth().toString();
+    document.getElementById("text").innerHTML = key;
     
     for (var meal = 1; meal <= 3; meal++) {
         for (var feed_point = 1; feed_point <= 3; feed_point++) {
