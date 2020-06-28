@@ -10,12 +10,13 @@ var meal3_feed1 = document.getElementById("meal3_feed1");
 var meal3_feed2 = document.getElementById("meal3_feed2");
 var meal3_feed3 = document.getElementById("meal3_feed3");
 
+var d = new Date();
+
 database.ref('/feed_table/' + d.getDate().toString() + d.getMonth().toString()).set({
     meal1_feed1: false,
 });
 
 function myFunction() {
-    var d = new Date();
 
     var text = document.getElementById("text");
     var all_meals_points = [];
