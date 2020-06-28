@@ -55,7 +55,7 @@ ref_key.once("value", function(data) {
             } 
     } 
     }
-    console.log(all_meals_points);
+    // console.log(all_meals_points);
 
     for (var meal = 1; meal <= 3; meal++) {
         for (var feed_point = 1; feed_point <= 3; feed_point++) {
@@ -76,7 +76,7 @@ ref_key.once("value", function(data) {
 function myFunction() {
 
     var text = document.getElementById("text");
-    document.getElementById("text").innerHTML = key;
+    // document.getElementById("text").innerHTML = key;
     
     for (var meal = 1; meal <= 3; meal++) {
         for (var feed_point = 1; feed_point <= 3; feed_point++) {
