@@ -17,6 +17,10 @@
         University of Central Florida. Research area: Cooperative vehicle safety, ADAS, Wireless vehicular
         networks, Intelligent Transportation Systems.">
         <meta name="author" content="Nitish Gupta">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
         <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
@@ -169,7 +173,7 @@
     <body>
         <h2>Community Dog Lovers</h2>
 
-        <table style="width:100%" >
+        <!-- <table style="width:100%" >
         <tr>
             <th>Feeding Point 1 : Pebble Beach</th>
             <th>Feeding Point 2 : Estancia</th>
@@ -218,7 +222,39 @@
                 <label for="meal3_feed3"> Evening Meal</label><br>
             </td>   
         </tr>
-        </table> 
+        </table>  -->
+
+        <div class="w3-row-padding">
+            <div class="w3-third">
+              <h3>Feeding Point 1 : Pebble Beach</h3>
+                <input type="checkbox" id="meal1_feed1" name="vehicle1" onclick="myFunction()">
+                <label for="meal1_feed1"> Morning Meal</label><br>
+                <input type="checkbox" id="meal2_feed1" name="vehicle1" onclick="myFunction()">
+                <label for="meal2_feed1"> Afternoon Meal</label><br>
+                <input type="checkbox" id="meal2_feed1" name="vehicle1" onclick="myFunction()">
+                <label for="meal2_feed1"> Evening Meal</label><br>
+            </div>
+          
+            <div class="w3-third">
+              <h3>Feeding Point 2 : Estancia</h3>
+                <input type="checkbox" id="meal1_feed2" name="vehicle1" onclick="myFunction()">
+                <label for="meal1_feed2"> Morning Meal</label><br>
+                <input type="checkbox" id="meal2_feed2" name="vehicle1" onclick="myFunction()">
+                <label for="meal2_feed2"> Afternoon Meal</label><br>
+                <input type="checkbox" id="meal3_feed2" name="vehicle1" onclick="myFunction()">
+                <label for="meal3_feed2"> Evening Meal</label><br>
+            </div>
+          
+            <div class="w3-third">
+              <h3>Feeding Point 3 : Augusta</h3>
+                <input type="checkbox" id="meal1_feed3" name="vehicle1" onclick="myFunction()">
+                <label for="meal1_feed3"> Morning Meal</label><br>
+                <input type="checkbox" id="meal2_feed3" name="vehicle1" onclick="myFunction()">
+                <label for="meal2_feed3"> Afternoon Meal</label><br>
+                <input type="checkbox" id="meal3_feed3" name="vehicle1" onclick="myFunction()">
+                <label for="meal3_feed3"> Evening Meal</label><br>
+            </div>
+          </div>
 
 
         <p id="text" style="display:none">Feeding Point - Morning Meal Completed!</p>
