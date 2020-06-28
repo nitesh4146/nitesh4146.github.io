@@ -13,17 +13,17 @@ var meal3_feed3 = document.getElementById("meal3_feed3");
 var d = new Date();
 var key = d.getDate().toString() + d.getMonth().toString();
 
-database.ref('/feed_table/' + key).set({
-    meal1_feed1: false,
-    meal1_feed2: false,
-    meal1_feed3: false,
-    meal2_feed1: false,
-    meal2_feed2: false,
-    meal2_feed3: false,
-    meal3_feed1: false,
-    meal3_feed2: false,
-    meal3_feed3: false,
-});
+// database.ref('/feed_table/' + key).set({
+//     meal1_feed1: false,
+//     meal1_feed2: false,
+//     meal1_feed3: false,
+//     meal2_feed1: false,
+//     meal2_feed2: false,
+//     meal2_feed3: false,
+//     meal3_feed1: false,
+//     meal3_feed2: false,
+//     meal3_feed3: false,
+// });
 
 
 for (var meal = 1; meal <= 3; meal++) {
@@ -32,6 +32,17 @@ for (var meal = 1; meal <= 3; meal++) {
         checkBox.checked = false;
     }
 }
+
+
+var ref = database.ref('/feed_table/');
+
+// Attach an asynchronous callback to read the data at our posts reference
+ref.on("child_added ", function(snapshot, d) {
+  console.log(snapshot.val());
+}, function (errorObject) {
+  console.log("The read failed: " + errorObject.code);
+});
+
 
 function myFunction() {
 
