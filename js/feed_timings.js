@@ -72,7 +72,7 @@ ref_key.once("value", function(data) {
             } 
     } 
     }
-    // console.log(data.val().meal1_feed1);
+    console.log(all_meals_points);
 
     for (var meal = 1; meal <= 3; meal++) {
         for (var feed_point = 1; feed_point <= 3; feed_point++) {
@@ -80,10 +80,11 @@ ref_key.once("value", function(data) {
             checkBox.checked = all_meals_points[meal-1][feed_point-1];
             if (all_meals_points[meal-1][feed_point-1])
                 checkBox.disabled = true;
-                checkBox.
-        }
-    }   
-
+            else
+                checkBox.disabled = false;
+        }   
+    }
+    document.getElementById("date").innerHTML = Date();
 });
 
 
