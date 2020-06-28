@@ -1,34 +1,17 @@
 const database = firebase.database();
 
-var meal1_feed1 = document.getElementById("meal1_feed1");
-var meal1_feed2 = document.getElementById("meal1_feed2");
-var meal1_feed3 = document.getElementById("meal1_feed3");
-var meal2_feed1 = document.getElementById("meal2_feed1");
-var meal2_feed2 = document.getElementById("meal2_feed2");
-var meal2_feed3 = document.getElementById("meal2_feed3");
-var meal3_feed1 = document.getElementById("meal3_feed1");
-var meal3_feed2 = document.getElementById("meal3_feed2");
-var meal3_feed3 = document.getElementById("meal3_feed3");
+// var meal1_feed1 = document.getElementById("meal1_feed1");
+// var meal1_feed2 = document.getElementById("meal1_feed2");
+// var meal1_feed3 = document.getElementById("meal1_feed3");
+// var meal2_feed1 = document.getElementById("meal2_feed1");
+// var meal2_feed2 = document.getElementById("meal2_feed2");
+// var meal2_feed3 = document.getElementById("meal2_feed3");
+// var meal3_feed1 = document.getElementById("meal3_feed1");
+// var meal3_feed2 = document.getElementById("meal3_feed2");
+// var meal3_feed3 = document.getElementById("meal3_feed3");
 
 var d = new Date();
 var key = d.getDate().toString() + d.getMonth().toString() + d.getFullYear().toString();
-// var key = "3062020";
-// var key = "3162020";
-
-
-
-// database.ref('/feed_table/' + key).set({
-//     meal1_feed1: false,
-//     meal1_feed2: false,
-//     meal1_feed3: false,
-//     meal2_feed1: false,
-//     meal2_feed2: false,
-//     meal2_feed3: false,
-//     meal3_feed1: false,
-//     meal3_feed2: false,
-//     meal3_feed3: false,
-// });
-
 
 var ref = database.ref('/feed_table/');
 
