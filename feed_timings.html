@@ -231,7 +231,7 @@
                 
                 for (var meal = 1; meal <= 3; meal++) {
                     for (var feed_point = 1; feed_point <= 3; feed_point++) {
-                        var checkBox = document.getElementById("meal" + meal.toString() + "_feed" + meal.toString());
+                        var checkBox = document.getElementById("meal" + meal.toString() + "_feed" + feed_point.toString());
                         if (checkBox.checked == true){
                             text.style.display = "block";
                             checkBox.disabled = true;
