@@ -52,7 +52,7 @@ function myFunction() {
             }
         }
     }
-    // console.log(all_meals_points);
+    console.log(all_meals_points);
     database.ref('/feed_table/' + key).set({
         meal1_feed1: all_meals_points[0][0],
         meal1_feed2: all_meals_points[0][1],
