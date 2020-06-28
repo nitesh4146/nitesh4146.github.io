@@ -1,0 +1,43 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+}
+
+.center1 {
+    margin: auto;
+    /* border: 3px solid #73AD21; */
+    padding: 10px;
+    text-align: center;
+  }
+
+.center2 {
+    margin: auto;
+    /* border: 3px solid #73AD21; */
+    padding: 10px;
+    text-align: center;
+}
+
+.center3 {
+    margin: auto;
+    /* border: 3px solid #73AD21; */
+    text-align: center;
+    padding: 10px;
+}

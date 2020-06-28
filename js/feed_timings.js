@@ -11,9 +11,9 @@ var meal3_feed2 = document.getElementById("meal3_feed2");
 var meal3_feed3 = document.getElementById("meal3_feed3");
 
 var d = new Date();
-// var key = d.getDate().toString() + d.getMonth().toString() + d.getFullYear().toString();
+var key = d.getDate().toString() + d.getMonth().toString() + d.getFullYear().toString();
 // var key = "3062020";
-var key = "3162020";
+// var key = "3162020";
 
 
 
@@ -80,6 +80,7 @@ ref_key.once("value", function(data) {
             checkBox.checked = all_meals_points[meal-1][feed_point-1];
             if (all_meals_points[meal-1][feed_point-1])
                 checkBox.disabled = true;
+                checkBox.
         }
     }   
 
