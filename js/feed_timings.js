@@ -103,10 +103,3 @@ function myFunction() {
         meal3_feed3: all_meals_points[2][2],
     });
 }
-
-var overlay = document.getElementById("loader-3");
-
-window.addEventListener('load', function()
-{
-    overlay.style.display = 'none';
-})
